@@ -14,6 +14,6 @@ allprojects {
  > Step 2. Add the dependency
  ```gradle
  dependencies {
-		implementation 'com.github.User:Repo:Tag'
+		implementation 'com.github.prashantsumfactor:Sumfactor-Toast:Tag'
 	}
   ```
