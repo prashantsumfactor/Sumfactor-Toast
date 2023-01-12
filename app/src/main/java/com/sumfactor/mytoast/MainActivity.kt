@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        MyToast.showToast(this, "Errrfdsf")
+        MyToast.showToast(this, "Toast Message Here")
 
     }
 }
