@@ -23,7 +23,8 @@ allprojects {
 
 > Step 3. Now use it directly in your code like
 
-```For Simple / Normal : 
+```
+   For Simple / Normal : 
    MyToast.simpleToast(context = this, simpleMessage = "Toast Message")
    
    For Error toast :  
@@ -32,11 +33,10 @@ allprojects {
    For Warning toast :
    MyToast.warningToast(context =this, warningMessage = "use 'name' in upper case")
    
-   You can set toast position on screen by Gravity class like
-             *    By default Gravity was set to bottom
-             *    Gravity.TOP : for align Top
-             *    Gravity.BOTTOM : for align Bottom
-             *    Gravity.CENTER : for align Center
+   You can set toast position top/center/bottom
+             *    By default Toast position was set to bottom e.g positionDefault
+             *    MyToast.positionTop : for align Top
+             *    MyToast.positionCenter : for align Center
    
-   example - MyToast.simpleToast(context = this, simpleMessage = "Toast Message", position = Gravity.TOP) 
+   example - MyToast.simpleToast(context = this, simpleMessage = "Toast Message", position = MyToast.positionTop) 
 ```
